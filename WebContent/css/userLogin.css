@@ -1,0 +1,25 @@
+@charset "UTF-8";
+#container {
+	width:1536px;
+	height:760px;
+	background:#FFFAF0;
+	justify-content: center; /*子元素水平居中*/
+    align-items: center; /*子元素垂直居中*/
+    display: -webkit-flex;
+}
+#loginBox {
+	margin:0 auto;
+	width:500px;
+	height:550px;
+	border:1px solid #FFE4B5;
+	border-radius:20px;
+	box-shadow:0 0 100px #FFEFD5 inset;
+}
+header h3 {
+	font-size:20px;
+	text-align:center;
+}
+.am-cf {
+	position:absolute;
+	left:750px;
+}
